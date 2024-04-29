@@ -1,0 +1,79 @@
+.welcome{
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+  }
+  body{
+    background-color: rgb(220, 181, 220);
+    background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    .begin{
+        background-color: rgb(71, 38, 71);
+        color: plum;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        }
+        @media screen and (min-width:280px) and (max-width:480px){
+          .welcome{
+            text-align: center;
+            margin-top: 100px;
+            font-size: large;
+          }
+          body{
+            background-color: rgb(220, 181, 220);
+            background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+            background-repeat: no-repeat;
+            background-size: 500%;
+            }
+            .begin{
+                background-color: rgb(71, 38, 71);
+                color: plum;
+                border-radius: 10px;
+                width: 200px;
+                height: 50px;
+                }
+        }
+        @media screen and (min-width:480px) and (max-width:780px){
+
+          .welcome{
+            text-align: center;
+            margin-top: 100px;
+            font-size: xx-large;
+          }
+          body{
+            background-color: rgb(220, 181, 220);
+            background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            }
+            .begin{
+                background-color: rgb(71, 38, 71);
+                color: plum;
+                border-radius: 10px;
+                width: 200px;
+                height: 50px;
+                }
+                @media screen and (min-width:280px) and (max-width:480px){
+                  .welcome{
+                    text-align: center;
+                    margin-top: 100px;
+                    font-size: large;
+                  }
+                  body{
+                    background-color: rgb(220, 181, 220);
+                    background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+                    background-repeat: no-repeat;
+                    background-size: 500%;
+                    }
+                    .begin{
+                        background-color: rgb(71, 38, 71);
+                        color: plum;
+                        border-radius: 10px;
+                        width: 200px;
+                        height: 50px;
+                        }
+
+        }}

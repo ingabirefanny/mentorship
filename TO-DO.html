@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="to-do.css">
+    <link rel="stylesheet" href="to-do.js">
+</head>
+<body>
+    <div class="home">
+        <header >
+            <navbar id="navbar">
+            <ul id="nav-bar">
+    
+              <img src="photos/logoo.png" alt="" class="logoo">
+    
+             <li><a href="home.html">Home</a></li>
+            <li><a href="TO-DO.html">To-do List</a></li>
+            <li> <a href="Goals.html">Goals</a></li>
+             <li><a href="Achivements.html">Achievements</a></li>
+             <li>  <a href="mentor.html">Mentor's profile</a></li>
+             <li><a href="NYJ.html">NYJ</a></li>
+              </ul>
+            </navbar>
+              </header> 
+<div class="work">
+    <h1>To-Do List</h1>
+    <form>
+        <label for="task">Task:</label>
+        <input type="text" id="task" name="task" placeholder="Enter task">
+        <button type="button" onclick="addTask()">Add</button>
+    </form>
+    <ul id="task-list">
+    </ul>
+</div>
+
+<script>
+    function addTask() {
+        var taskInput = document.getElementById("task");
+        var taskValue = taskInput.value;
+        var li = document.createElement("li");
+        var checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        li.appendChild(checkbox);
+        var textNode = document.createTextNode(taskValue);
+        li.appendChild(textNode);
+        var ul = document.getElementById("task-list");
+        ul.appendChild(li);
+        taskInput.value = "";
+    }
+    
+
+</script>
+</body>
+</html>

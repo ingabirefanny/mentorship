@@ -1,0 +1,180 @@
+.signup{
+    margin-left: 500px;
+    margin-top: 10px;
+    background-color: rgb(50, 19, 79);
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 50px;
+}
+body{
+    background-color: rgb(220, 181, 220);
+    background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    }
+    label{
+        color: rgb(214, 153, 163);
+        margin-left: 60px;
+    }
+    input{
+        border: solid 1px;
+        width:400px;
+        height: 50px;
+        border-radius: 7px;
+        background-color: rgb(236, 217, 220);
+        margin-left: 60px;
+    }
+    .SIGN{
+        background-color: rgb(204, 152, 160);
+        width: 200px;
+        height: 50px;
+        border-radius: 7px;
+        margin-left: 130px;
+    
+    }
+    .h1{
+        color: rgb(211, 175, 175);
+        margin-left: 70px;
+    }
+
+    @media screen and (min-width:280px) and (max-width:480px){
+        .signup{
+            margin-left: 20px; 
+            /* margin-right: -20px; */
+            margin-top: 100px;
+            background-color: rgb(50, 19, 79);
+             width: 300px; 
+            /* height: 700px; */
+            /* padding: 20px; */
+            border-radius: 50px;
+        }
+        body{
+            background-color: rgb(220, 181, 220);
+            background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+            background-repeat: no-repeat;
+            background-size: 00%;
+            }
+            label{
+                color: rgb(214, 153, 163);
+                /* margin-left: 60px; */
+            }
+            input{
+                border: solid 1px;
+                width:200px;
+                height: 50px;
+                border-radius: 7px;
+                background-color: rgb(236, 217, 220);
+                /* margin-left: 60px; */
+            }
+            .SIGN{
+                background-color: rgb(204, 152, 160);
+                width: 100px;
+                height: 50px;
+                border-radius: 7px;
+                /* margin-left: 130px; */
+            
+            }
+            .h1{
+                color: rgb(211, 175, 175);
+                /* margin-left: 70px; */
+            }
+            form{
+                /* margin-right: 0px; */
+            }
+            #Signup{
+                
+            }
+
+    }
+
+    @media screen and (min-width:480px) and (max-width:550px){
+        .signup{
+            margin-left: 80px; 
+             margin-right: -0px; 
+            margin-top: 100px;
+            background-color: rgb(50, 19, 79);
+             width: 300px; 
+            /* height: 700px; */
+            /* padding: 20px; */
+            border-radius: 50px;
+        }
+        body{
+            background-color: rgb(220, 181, 220);
+            background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+            background-repeat: no-repeat;
+            background-size: 00%;
+            }
+            label{
+                color: rgb(214, 153, 163);
+                /* margin-left: 60px; */
+            }
+            input{
+                border: solid 1px;
+                width:200px;
+                height: 50px;
+                border-radius: 7px;
+                background-color: rgb(236, 217, 220);
+                /* margin-left: 60px; */
+            }
+            .SIGN{
+                background-color: rgb(204, 152, 160);
+                width: 100px;
+                height: 50px;
+                border-radius: 7px;
+                /* margin-left: 130px; */
+            
+            }
+            .h1{
+                color: rgb(211, 175, 175);
+                /* margin-left: 70px; */
+            }
+            form{
+                /* margin-right: 0px; */
+            }
+            #Signup{
+                
+            }
+    }
+    @media screen  and  (min-width:760px) and (max-width:970px){
+        .signup{
+            margin-left: 180px; 
+             margin-right: 0px; 
+            margin-top: 100px; 
+            background-color: rgb(50, 19, 79);
+             width: 300px; 
+            /* height: 700px; */
+            /* padding: 20px; */
+            border-radius: 50px;
+        }
+        body{
+            background-color: rgb(220, 181, 220);
+            background-image: url(photos/Purple\ colourful\ background\ poster.jpeg); 
+            background-repeat: no-repeat;
+            background-size: 900%;
+            }
+            label{
+                color: rgb(214, 153, 163);
+                /* margin-left: 60px; */
+            }
+            input{
+                border: solid 1px;
+                width:200px;
+                height: 50px;
+                border-radius: 7px;
+                background-color: rgb(236, 217, 220);
+                /* margin-left: 60px; */
+            }
+            .SIGN{
+                background-color: rgb(204, 152, 160);
+                width: 100px;
+                height: 50px;
+                border-radius: 7px;
+                /* margin-left: 130px; */
+            
+            }
+            .h1{
+                color: rgb(211, 175, 175);
+                /* margin-left: 70px; */
+            }
+        }

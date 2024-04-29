@@ -1,0 +1,142 @@
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    }
+    #navbar li {
+        display: inline-block;
+     margin-top: 10px;
+     margin-left: 100px;
+     gap: 10px;
+              }
+header{
+    display: flex;
+}
+#nav-bar a{
+    text-decoration: none;
+color: rgb(225, 179, 225);
+    font-size: large;
+}
+.welcome{
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+    color: rgb(225, 179, 225);
+
+  }
+  body{
+    background-color: rgb(62, 18, 62);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+.well{
+    color: rgb(225, 179, 225);
+
+}
+.marq{
+    color: rgb(225, 179, 225);
+
+}
+.logout{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(225, 179, 225);
+    margin-left: 30px;
+}
+
+@media screen and (min-width:280px) and (max-width:480px){
+    #navbar ul{
+        display: grid;
+        justify-content: space-around;
+        gap: 40px;
+        }
+        #navbar li {
+            display: inline-block;
+         margin-top: 10px;
+         margin-left: 40px;
+         gap: 10px;
+                  }
+    header{
+        display: flex;
+    }
+    #nav-bar a{
+        text-decoration: none;
+    color: rgb(225, 179, 225);
+        font-size: large;
+    }
+    .welcome{
+        text-align: center;
+        margin-top: 100px;
+        font-size: xx-large;
+        color: rgb(225, 179, 225);
+    
+        
+      }
+      body{
+        background-color: rgb(62, 18, 62);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        }
+    .well{
+        color: rgb(225, 179, 225);
+    
+    }
+    .marq{
+        color: rgb(225, 179, 225);
+    
+    }
+    .logout{
+        width: 150px;#navbar ul{
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+            }
+            #navbar li {
+                display: inline-block;
+             margin-top: 10px;
+             margin-left: 100px;
+             gap: 10px;
+                      }
+        header{
+            display: flex;
+        }
+        #nav-bar a{
+            text-decoration: none;
+        color: rgb(225, 179, 225);
+            font-size: large;
+        }
+        .welcome{
+            text-align: center;
+            margin-top: 100px;
+            font-size: xx-large;
+            color: rgb(225, 179, 225);
+        
+            
+          }
+          body{
+            background-color: rgb(62, 18, 62);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            }
+        .well{
+            color: rgb(225, 179, 225);
+        
+        }
+        .marq{
+            color: rgb(225, 179, 225);
+        
+        }
+        .logout{
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(225, 179, 225);
+            margin-left: 30px;
+        }
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(225, 179, 225);
+        margin-left: 30px;
+    } 
+}

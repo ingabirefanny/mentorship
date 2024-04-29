@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.work {
+    margin: 25%;
+    width: 50%;
+    margin-top: 5%;
+    background-color: rgb(62, 18, 62);
+    border: 0.25px solid;
+    border-radius:3%;
+    height: 500px;
+}
+h1 {
+    text-align: center;
+    -webkit-text-fill-color: pink;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+input[type="text"] {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #ebc2c2;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+}
+button {
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: none;
+    background-color:rgb(230, 151, 230);
+    color: white;
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+}
+button:hover {
+    background-color:pink;
+}
+code{
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    }
+    #navbar li {
+        display: inline-block;
+     margin-top: 10px;
+     margin-left: 100px;
+     gap: 10px;
+              }
+header{
+    display: flex;
+}
+#nav-bar a{
+    text-decoration: none;
+color: rgb(62, 18, 62);
+    font-size: large;
+}
+label{
+    color: #ebc2c2;
+}
+
+@media screen and (min-width:280px) and (max-width:480px){
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+        background-repeat: no-repeat;
+        background-size: 900%;
+    }
+    .work {
+        /* margin: 25%; */
+        width: 350px;
+        margin-top: 5%;
+        background-color: rgb(62, 18, 62);
+        border: 0.25px solid;
+        border-radius:3%;
+        height: 400px;
+    }
+    h1 {
+        text-align: center;
+        -webkit-text-fill-color: pink;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        /* margin-right: 10px; */
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 20px;
+        border: 1px solid #ebc2c2;
+        font-size: 16px;
+        width: 150px;
+        height: 50px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 50px;
+        border: none;
+        background-color:rgb(230, 151, 230);
+        color: white;
+        font-size: 16px;
+        width: 100px;
+        height: 50px;
+    }
+    button:hover {
+        background-color:pink;
+    }
+    code{
+    }
+    
+    #navbar ul{
+        display: grid;
+        justify-content: space-around;
+        gap: 40px;
+        }
+        #navbar li {
+            display: inline-block;
+         margin-top: 10px;
+         /* margin-left: 100px; */
+         gap: 10px;
+                  }
+    header{
+        display: flex;
+    }
+    #nav-bar a{
+        text-decoration: none;
+    color: rgb(62, 18, 62);
+        font-size: large;
+    }
+    label{
+        color: #ebc2c2;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:980px){
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url(photos/Purple\ colourful\ background\ poster.jpeg);
+        background-repeat: no-repeat;
+        background-size: 200px;
+    }
+    .work {
+        /* margin: 25%; */
+        width: 50px;
+        margin-top: 5px;
+        background-color: rgb(62, 18, 62);
+        border: 0.25px solid;
+        border-radius:3px;
+        height: 20px;
+    }
+    h1 {
+        text-align: center;
+        -webkit-text-fill-color: pink;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    label {
+        display: inline-block;
+        /* margin-right: 10px; */
+        vertical-align: middle;
+    }
+    input[type="text"] {
+        padding: 5px;
+        border-radius: 20px;
+        border: 1px solid #ebc2c2;
+        font-size: 16px;
+        width: 150px;
+        height: 50px;
+    }
+    button {
+        padding: 5px 15px;
+        border-radius: 50px;
+        border: none;
+        background-color:rgb(230, 151, 230);
+        color: white;
+        font-size: 16px;
+        width: 100px;
+        height: 50px;
+    }
+    button:hover {
+        background-color:pink;
+    }
+    code{
+    }
+    
+    #navbar ul{
+        display: grid;
+        justify-content: space-around;
+        /* gap: 40px; */
+        }
+        #navbar li {
+            display: inline-block;
+         margin-top: 10px;
+         /* margin-left: 100px; */
+         gap: 10px;
+                  }
+    header{
+        display: grid;
+    }
+    #nav-bar a{
+        text-decoration: none;
+    color: rgb(62, 18, 62);
+        font-size: small;
+    }
+    label{
+        color: #ebc2c2;
+        .logo{
+            margin-left: 20px;
+        }
+        .work{
+            margin-right: 15px;  
+    }
+    #task_list{
+        margin-left:20px;
+    }
+}
